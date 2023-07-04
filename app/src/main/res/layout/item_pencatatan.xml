@@ -13,18 +13,19 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:layout_marginStart="16dp"
-            android:src="@drawable/icon_jadwal"
+            android:src="@drawable/icon_pencatatan"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:fontFamily="@font/poppins_medium"
-            android:text="Jadwal Posyandu"
+            android:text="Pencatatan Hasil Pemeriksaan"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -36,4 +37,4 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</com.google.android.material.card.MaterialCardView>
+</com.google.android.material.card.MaterialCardView>ut>

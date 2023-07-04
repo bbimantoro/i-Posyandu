@@ -72,7 +72,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
-        tools:src="@drawable/medical_center_2" />
+        tools:src="@drawable/medical_center_1" />
 
 
     <TextView
@@ -82,7 +82,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="24dp"
-        android:text="PILIH AKTIVITAS"
+        android:text="PILIH TINDAKAN"
         android:fontFamily="@font/poppins_semiBold"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,8 +90,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <include
-        android:id="@+id/item_jadwal"
-        layout="@layout/item_jadwal"
+        android:id="@+id/item_pendaftaran"
+        layout="@layout/item_pendaftaran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -103,8 +103,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <include
-        android:id="@+id/item_riwayat"
-        layout="@layout/item_riwayat"
+        android:id="@+id/item_pencatatan"
+        layout="@layout/item_pencatatan"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="24dp"
@@ -113,7 +113,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/item_jadwal" />
+        app:layout_constraintTop_toBottomOf="@+id/item_pendaftaran" />
+
+    <include
+        android:id="@+id/item_pelayanan"
+        layout="@layout/item_pelayanan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_pencatatan" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
