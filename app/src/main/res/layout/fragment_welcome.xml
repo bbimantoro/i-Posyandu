@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".core.presentation.WelcomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -46,7 +45,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semiBold"
+        android:fontFamily="@font/poppins_semibold"
         android:text="Ayo Ke Posyandu"
         android:textColor="#FF92A4"
         android:textSize="14sp"
@@ -58,7 +57,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins_semiBold"
+        android:fontFamily="@font/poppins_semibold"
         android:text="Posyandu Sahabat Masyarakat"
         android:textColor="#FF92A4"
         android:textSize="14sp"
@@ -72,7 +71,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:backgroundTint="#FF92A4"
-        android:fontFamily="@font/poppins_semiBold"
+        android:fontFamily="@font/poppins_semibold"
         android:text="MULAI"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
