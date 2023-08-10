@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".jadwalFragment">
+    tools:context=".coming_soonFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
@@ -38,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:backgroundTint="#FFC5CF"
+        android:backgroundTint="@color/white"
         android:fontFamily="@font/poppins_medium"
         android:text="Hari ini"
         android:textColor="@color/black"
@@ -46,12 +47,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="#FFC5CF"
         android:fontFamily="@font/poppins_medium"
         android:text="Yang akan datang"
         android:textColor="@color/black"
@@ -62,8 +62,8 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <include
-        android:id="@+id/item_jadwal_hari_ini"
-        layout="@layout/item_jadwal_hari_ini"
+        android:id="@+id/item_soon"
+        layout="@layout/item_soon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -74,5 +74,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <include
+        android:id="@+id/item_soon"
+        layout="@layout/item_soon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/item_soon"
+        layout="@layout/item_soon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
