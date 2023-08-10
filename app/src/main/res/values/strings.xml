@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">i-Posyandu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_Home">Home</string>
+    <string name="title_Notifikasi">Notifikasi</string>
+    <string name="title_Scan">Scan\n</string>
+    <string name="title_Riwayat">Riwayat\n</string>
+    <string name="title_Profil">Profil</string>
 </resources>
