@@ -1,4 +1,4 @@
-package app.dev.iposyandu.core.domain.model.user
+package app.dev.iposyandu.model.user
 
 data class Jadwal(
     val id: Int,

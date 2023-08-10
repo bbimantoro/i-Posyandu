@@ -18,7 +18,7 @@
         tools:src="@drawable/bg2" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvHeadline"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -44,14 +44,15 @@
         android:text="Jadwal Posyandu"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/tvHeadline" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="15dp"
         android:backgroundTint="#FFC5CF"
         android:fontFamily="@font/poppins_medium"
@@ -73,9 +74,9 @@
         android:textColor="@color/black"
         android:textSize="13sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
 
     <include
         android:id="@+id/item_jadwal_hari_ini"

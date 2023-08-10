@@ -1,4 +1,4 @@
-package app.dev.iposyandu.core.data.source.remote.response
+package app.dev.iposyandu.data.remote.response
 
 import com.google.gson.annotations.SerializedName
 

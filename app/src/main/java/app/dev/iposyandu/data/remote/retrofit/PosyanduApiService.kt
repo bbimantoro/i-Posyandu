@@ -1,10 +1,10 @@
-package app.dev.iposyandu.core.data.source.remote.retrofit
+package app.dev.iposyandu.data.remote.retrofit
 
-import app.dev.iposyandu.core.data.source.remote.response.KaderItemResponse
-import app.dev.iposyandu.core.data.source.remote.response.KbItemResponse
-import app.dev.iposyandu.core.data.source.remote.response.PesertaItemResponse
-import app.dev.iposyandu.core.data.source.remote.response.ScheduleItemResponse
-import app.dev.iposyandu.core.data.source.remote.response.VitaminItemResponse
+import app.dev.iposyandu.data.remote.response.KaderItemResponse
+import app.dev.iposyandu.data.remote.response.KbItemResponse
+import app.dev.iposyandu.data.remote.response.PesertaItemResponse
+import app.dev.iposyandu.data.remote.response.ScheduleItemResponse
+import app.dev.iposyandu.data.remote.response.VitaminItemResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 
