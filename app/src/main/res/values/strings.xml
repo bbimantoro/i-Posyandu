@@ -6,5 +6,16 @@
     <string name="title_Notifikasi">Notifikasi</string>
     <string name="title_Scan">Scan\n</string>
     <string name="title_Riwayat">Riwayat\n</string>
+    <string name="title_aktivitas">Pilih Aktivitas</string>
     <string name="title_Profil">Profil</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ayo_ke_posyandu">Ayo Ke Posyandu</string>
+    <string name="posyandu_sahabat_masyarakat">Posyandu Sahabat Masyarakat</string>
+    <string name="start">Mulai</string>
+    <string name="login">Masuk</string>
 </resources>

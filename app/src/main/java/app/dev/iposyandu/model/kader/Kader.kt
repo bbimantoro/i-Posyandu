@@ -1,4 +1,4 @@
-package app.dev.iposyandu.core.domain.model.kader
+package app.dev.iposyandu.model.kader
 
 data class Kader(
     val id: Int,
