@@ -145,6 +145,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+<<<<<<< HEAD
         app:layout_constraintGuide_percent="0.10" />
+=======
+        app:layout_constraintGuide_percent="0.14" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/linear_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+>>>>>>> ea5da45038e1b2bd288f360d05fb5026802205f3
 
 </androidx.constraintlayout.widget.ConstraintLayout>
