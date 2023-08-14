@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_type">
+        <item>@string/peserta</item>
+        <item>@string/kader</item>
+    </string-array>
+</resources>

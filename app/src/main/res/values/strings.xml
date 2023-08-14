@@ -8,7 +8,6 @@
     <string name="title_Riwayat">Riwayat\n</string>
     <string name="title_aktivitas">Pilih Aktivitas</string>
     <string name="title_Profil">Profil</string>
-    <string name="title_activity_welcome">WelcomeActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
@@ -18,4 +17,14 @@
     <string name="posyandu_sahabat_masyarakat">Posyandu Sahabat Masyarakat</string>
     <string name="start">Mulai</string>
     <string name="login">Masuk</string>
+    <string name="phone_number">Nomor HP</string>
+    <string name="peserta">Peserta</string>
+    <string name="kader">Kader</string>
+    <string name="category">Kategori</string>
+    <string name="password">Kata Sandi</string>
+    <string name="simpan_info">Simpan Info</string>
+    <string name="title_activity_bottom_nav">BottomNavActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

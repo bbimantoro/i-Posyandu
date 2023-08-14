@@ -13,20 +13,23 @@
         android:theme="@style/Theme.IPosyandu"
         tools:targetApi="31">
         <activity
+            android:name=".presentation.BottomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
             android:name=".presentation.login.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".presentation.welcome.WelcomeActivity"
-            android:exported="true"
-            android:label="@string/title_activity_welcome"
-            android:theme="@style/Theme.IPosyandu">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="false" />
     </application>
 

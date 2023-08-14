@@ -7,7 +7,7 @@
     tools:context=".core.presentation.WelcomeFragment">
 
     <TextView
-        android:id="@+id/tvHeadline"
+        android:id="@+id/tvHeadline1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
