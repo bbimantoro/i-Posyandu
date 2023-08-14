@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PencatatanHasilPemeriksaanFragment">
+    tools:context=".KeluargaBerencanaFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -40,35 +40,10 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Pencatatan Hasil Pemeriksaan"
+        android:text="Keluarga Berencana"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <com.google.android.material.search.SearchBar
-        android:id="@+id/searchBar"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:layout_marginHorizontal="16dp"
-        android:hint="Apa yang kamu cari"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"/>
-
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchBar"
-        tools:listitem="@layout/item_pencatatan_hasil" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
