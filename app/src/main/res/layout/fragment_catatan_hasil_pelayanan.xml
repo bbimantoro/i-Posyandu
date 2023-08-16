@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DataObatFragment">
+    tools:context=".PencatatanHasilPemeriksaanFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
@@ -40,73 +40,33 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="24dp"
         android:fontFamily="@font/poppins_semibold"
-        android:text="Obat dan Vitamin"
+        android:text="Catatan Hasil Pelayanan"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/edtCategoryLayout"
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="24dp"
-        app:boxBackgroundColor="#D9D9D9"
+    <com.google.android.material.search.SearchBar
+        android:id="@+id/searchBar"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Apa yang kamu cari"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView20"
-        app:shapeAppearance="@style/RoundCorner">
+        app:layout_constraintTop_toBottomOf="@+id/textView20"/>
 
-        <AutoCompleteTextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:hint="Nama Peserta"
-            android:inputType="none"
-            android:textColor="#7A7A7A"
-            app:simpleItems="@array/user_type"
-            tools:ignore="SpeakableTextPresentCheck" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <TextView
-        android:id="@+id/textView22"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="24dp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="Jenis Obat dan Vitamin"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtCategoryLayout" />
-
-    <include
-        android:id="@+id/item_jenis_obat_vitamin"
-        layout="@layout/item_jenis_obat_vitamin"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView22" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="24dp"
-        android:fontFamily="@font/poppins_medium"
-        android:text="Kategori"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/item_jenis_obat_vitamin" />
-
+        app:layout_constraintTop_toBottomOf="@+id/searchBar"
+        tools:listitem="@layout/item_pencatatan_hasil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
